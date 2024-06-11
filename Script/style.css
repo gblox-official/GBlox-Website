@@ -34,6 +34,8 @@ h1 {
     background-color: #212121;
     padding: 15px;
     height: 100%;
+
+    gap: 40;
 }
 
 .content{
@@ -68,8 +70,13 @@ h3 {
     color: white;
     text-decoration: none;
     display: block;
+    margin-bottom: 10px;
 }
 .sidebar a:hover {
     font-size: 26px;
     color: rgb(232, 232, 232);
+}
+
+a.selected {
+    font-weight: 700;
 }
