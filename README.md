@@ -1,2 +1,3 @@
-# gblox-official
- 
+# GBlox
+
+The best platform for games
