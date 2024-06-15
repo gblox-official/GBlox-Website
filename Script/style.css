@@ -39,8 +39,8 @@ h1 {
 }
 
 .content{
-    padding-left: 13%;
-    background-color: #353535;
+    margin-left: 13%;
+
     text-align: center;
     height: 100hv;
 }
@@ -62,7 +62,16 @@ p {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 32px;
+}
+
+body.homepage {
+    background-image: url('https://github.com/gblox-official/GBlox-Website/blob/main/Assets/Banner.png?raw=true');
+    background-repeat: repeat;
+}
+body.gamepage{
+    background-image: url('https://github.com/gblox-official/GBlox-Website/blob/main/Assets/Banner2.png?raw=true');
+    background-repeat: repeat;
 }
 
 .sidebar a{
@@ -79,4 +88,36 @@ h3 {
 
 a.selected {
     font-weight: 700;
+}
+
+.grid{
+    margin-left: 13%;
+    padding: 20px;
+
+    align-content: center;
+    display: grid;
+    gap: 35px;
+
+    grid-template-columns: 25% 25% 25%;
+}
+
+.game_card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    background-color: rgb(60, 60, 60);
+
+    transition: 0.3s;
+}
+.game_card img{
+    border-radius: 10 10 0 0;
+}
+.game_card:hover{
+    box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.3);
+    border-color: rgb(192, 192, 192);
+}
+.card_container{
+    text-align: start;
+    gap: 2px;
+    padding: 2px 16px;
 }
