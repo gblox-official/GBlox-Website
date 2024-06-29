@@ -8,6 +8,14 @@
     src: url('Fonts/montserrat.ttf');
 }
 
+/* Effects */
+.glass_bg{
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+/* Elements */
+
 body {
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -34,7 +42,7 @@ h1 {
     background-color: #212121;
 
     padding: 10px;
-    height: 7%;
+    height: 40px;
     vertical-align: middle;
     display: flex;
 
@@ -56,9 +64,9 @@ h1 {
     position: fixed;
     z-index: 1;
 
-    top: 7%;
     left: 0;
-    padding-top: 4%;
+    margin-top: 50px;
+    padding-top: 20px;
 
 
     background-color: #212121d7;
@@ -113,6 +121,8 @@ body.gamepage{
     margin-bottom: 10px;
     padding-left: 15px;
     text-wrap: nowrap;
+
+    text-align: center;
 }
 .sidebar a:hover {
     font-size: 26px;
